@@ -1,0 +1,7 @@
+---- USB_Disk_RunStatus Matches (6 in 4 files) ----
+App_808.c (bsp\stm32f407vgt6_recdrv\app_712\protocol_808):	if(  USB_Disk_RunStatus()==USB_CONNECT_NOTFIND)
+App_808.c (bsp\stm32f407vgt6_recdrv\app_712\protocol_808):	if( USB_Disk_RunStatus()==USB_FIND)	
+GB19056.c (bsp\stm32f407vgt6_recdrv\app_712\drvdata):   if( USB_Disk_RunStatus()==USB_FIND)	
+GB19056.c (bsp\stm32f407vgt6_recdrv\app_712\drvdata):    //   if( USB_Disk_RunStatus()==USB_FIND)	
+Usbh_usr.c (bsp\stm32f407vgt6_recdrv\drivers\usb):u8    USB_Disk_RunStatus(void)  
+Usbh_usr.h (bsp\stm32f407vgt6_recdrv\drivers\usb):u8      USB_Disk_RunStatus(void); 
